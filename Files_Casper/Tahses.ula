@@ -35,3 +35,7 @@ if text == "تفعيل اوامر التحشيش" and Owner(msg) then
 send(msg.chat_id_, msg.id_,'☑┇تم تفعيل اوامر التحشيش')
 database:del(bot_id.."Casper:Fun_Bots"..msg.chat_id_)
 end
+
+end
+return {
+CasperFile = Tahse}
